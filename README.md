@@ -13,8 +13,6 @@ Fish-Networking https://github.com/FirstGearGames/FishNet
 
 .Net 4.5x
 
-If you already have SteamWorks.Net in your project, you might need to delete either your copy, or the one included within this transport.	
-
 These projects need to be installed and working before you can use this transport.
 1. [SteamWorks.NET](https://github.com/rlabrecque/Steamworks.NET) FishySteamworks relies on Steamworks.NET to communicate with the Steamworks API(https://partner.steamgames.com/doc/sdk). [Installation guide](https://kb.heathenengineering.com/assets/steamworks/installation#install-steamworks.net) by Heathen Engineering: https://kb.heathenengineering.com/assets/steamworks/installation
 
@@ -28,7 +26,8 @@ These projects need to be installed and working before you can use this transpor
 
 3. Choose Peer to Peer to connect using the Steam relay.
 
-You may need to add SteamManager to your NetworkManager object. Some frameworks such as Heathen Engineerings' use their own version of SteamManager. Please consult their discord here https://discord.gg/SGd4vkRdSe for more information on using their assets.
+4. You may need to add SteamManager to your NetworkManager object. Some frameworks such as Heathen Engineerings' use their own version of SteamManager. Please consult their discord here https://discord.gg/SGd4vkRdSe for more information on using their assets.
+If you need a SteamManager to get started import FishNet\Plugins\FishySteamworks\SteamManager.unitypackage.
 
 
 
